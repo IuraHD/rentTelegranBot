@@ -8,8 +8,11 @@ from telegram.ext import (
     Updater, CommandHandler, MessageHandler, Filters,
     CallbackContext, ConversationHandler
 )
+
 # ------------------------------------------------------------------
-#   Configuration
+#   rentTelegranBot
+#   Compatible with Python 3.11.0+
+#   Make sure to install dependencies from requirements.txt
 # ------------------------------------------------------------------
 
 SCRAPE_INTERVAL = 300
